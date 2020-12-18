@@ -1,12 +1,20 @@
 /* === Общие === */
 :root {
-  --main-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --main-white-color: #ffffff;
-  --footer-color: rgba(255, 255, 255, 0.6);
-  --background: #2f303a;
-  --background-button-color: #f5f4fa;
+  --color-grey: #757575;
+  --color-black: #212121;
+  --color-blue: #2196f3;
+  --color-white: #ffffff;
+  --color-transparent-grey: rgba(255, 255, 255, 0.6);
+  --color-light-black: #2f303a;
+  --color-light-grey: #f5f4fa;
+
+  --main-text-color: var(--color-grey);
+  --title-text-color: var(--color-black);
+  --accent-color: var(--color-blue);
+  --main-white-color: var(--color-white);
+  --footer-color: var(--color-transparent-grey);
+  --background-color-footer: var(--color-light-black);
+  --background-button-color: var(--color-light-grey);
   --second-font-family: Raleway, sans-serif;
 }
 
@@ -76,7 +84,7 @@ body {
 /*===Девиз===*/
 
 .slogan {
-  background-color: var(--background);
+  background-color: var(--background-color-footer);
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -146,10 +154,10 @@ body {
 
 /*=== Подвал с контактами ===*/
 .footer {
-  background-color: var(--background);
+  background-color: var(--background-color-footer);
 }
 
-.footer .logo {
+.logo.logo-inverse {
   color: var(--main-white-color);
 }
 
@@ -186,14 +194,14 @@ body {
 /*=== /Фильтр ===*/
 
 /*=== Проекты ===*/
-.progects {
+.projects {
   list-style: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.progects-titles {
+.projects-titles {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
