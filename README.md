@@ -1,2 +1,1 @@
-# goit-markup-hw-02
-https://juliazaykas.github.io/goit-markup-hw-02/
+[# goit-markup-hw-02](https://juliazaykas.github.io/goit-markup-hw-02/)
